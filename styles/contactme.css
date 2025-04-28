@@ -1,0 +1,82 @@
+/* Contact Section Styling */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;  /* Making the header more prominent */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .contact-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-item i {
+    font-size: 2rem;  /* Larger icon size */
+    color: #007bff;   /* Icon color */
+  }
+  
+  .contact-item p {
+    margin: 0;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .contact-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hover effect for contact items */
+  .contact-item:hover {
+    transform: translateY(-5px);  /* Slight lift effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
+  }
+  
+  /* Responsive Design for Small Screens */
+  @media (max-width: 768px) {
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-item {
+      width: 90%;  /* Make the cards wider on small screens */
+      gap: 15px;   /* Reduced gap for better mobile layout */
+    }
+  
+    .contact-item i {
+      font-size: 1.8rem;  /* Adjust icon size on mobile */
+    }
+  
+    #contact h2 {
+      font-size: 2rem;  /* Smaller header size for mobile */
+    }
+  }
+  

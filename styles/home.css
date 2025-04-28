@@ -1,0 +1,45 @@
+/* Home Section */
+#home {
+    background-color: #f4f7fa;
+    padding: 80px 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  #home h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    line-height: 1.2;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #555;
+    padding: 0 15px;
+  }
+  
+  /* Add a background image for visual appeal */
+  #home {
+    background-image: url('your-image.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Responsive typography */
+  @media (max-width: 768px) {
+    #home h1 {
+      font-size: 2.2rem;
+    }
+  
+    #home p {
+      font-size: 1.1rem;
+    }
+  }
+  
